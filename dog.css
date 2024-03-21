@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+body{
+    width: 100%;
+}
+
+img{
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+    gap: 5rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin: 10px;
+    color: gray;
+    text-align: start;
+    
+}
+
+
+.right p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+   
+}
+
+.right div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.right button{
+    background-color: transparent;
+    border: 2px solid blue;
+    color:  red;
+    font-size: .9rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.right button:hover{
+    background-color: red;
+    color: gray;
+    border-color: rgb(37,0,37);
+}
+
+header{
+    width:100%;
+    padding: 10px 30px;
+    display: flex;
+    gap: 1rem;
+    background-color: black;
+    cursor: pointer;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+}
+
+header li{
+    padding: 10px 20px;
+}
+header li{
+    font-size: 1.05rem;
+    transition:all .5s;
+}
+
+header li a:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container p span{
+    color: blue;
+}
+
+.container ul li{
+    font-size: 1.5rem;
+}
+
+header{
+    width:100%;
+    padding: 10px 30px;
+    display: flex;
+    gap: 1rem;
+    background-color: black;
+    cursor: pointer;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+}
+
+header li{
+    padding: 10px 20px;
+}
+header li{
+    font-size: 1.05rem;
+    transition:all .5s;
+}
+
+header li a:hover{
+    color: blue;
+    border-bottom: 2px solid gray;
+}

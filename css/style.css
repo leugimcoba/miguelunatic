@@ -1,0 +1,113 @@
+@import url('https://fonts.google.com/specimen/Rajdhani');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #454545;
+}
+.sectionOne{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    border: 5px dashed green;
+}
+
+.info{
+    width: 350px;
+}
+
+.info :is(h1){
+    font-family:  "Madimi One", sans-serif;
+    font-size:2rem;
+    padding: 10px;
+}
+
+.info :is(p){
+    padding: 10px;
+    font-family:  "Madimi One", sans-serif;
+}
+
+.info :is(button){
+    cursor:grab;
+    font-weight: 100;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+    background-color: black;
+    font-family:  "Madimi One", sans-serif;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    border: 5px dashed green;
+    column-count: 3;
+}
+
+.p1{
+    padding: 10px;
+}
+
+.sectionTwo{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.sectionTwo h1{
+    padding: 20px;
+    font-family:  "Madimi One", sans-serif;
+    font-size: 2rem;
+}
+
+.sectionTwo button{
+    padding: 5px;
+    color: green;
+    background-color:black ;
+    margin-top: 10px;
+    cursor:grab;
+    border-radius: 5px;
+    border: 2px dashed color green;
+}
+
+.sectionTwo p{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: V "Madimi One", sans-serif;
+    font-size: 1rem;
+}
+header{
+    width:100%;
+    padding: 10px 30px;
+    display: flex;
+    gap: 1rem;
+    background-color: black;
+    cursor: pointer;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+}
+
+header li{
+    padding: 10px 20px;
+}
+header li{
+    font-size: 1.05rem;
+    transition:all .5s;
+}
+
+header li a:hover{
+    color: blue;
+    border-bottom: 2px solid gray;
+}
