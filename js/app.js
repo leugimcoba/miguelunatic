@@ -5,8 +5,8 @@ import {func3} from "./card.js"
 let a = document.getElementById("sectionOne")
 
 let Obj1 ={
-    title: "HELLO THIS IS THE ANONYMOUS!",
-    desc: "A hacker is an individual who uses computer, networking or other skills to overcome a technical problem. The term also may refer to anyone who uses their abilities to gain unauthorized access to systems or networks in order to commit crimes. We are Legion. We do not forgive. We do not forget. Expect us.",
+    title: "THIS IS THE ANONYMOUS!",
+    desc: "Greatings citizen of the world this is the messege for scamer people************ We are Legion. We do not forgive. We do not forget. Expect us.",
     btn:"Contact Me",
     myImg: "../img/hacker.jpg"
 }
